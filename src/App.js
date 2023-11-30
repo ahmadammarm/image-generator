@@ -94,7 +94,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="/logo.png" className="App-logo" alt="logo" />
+        <div className="
+          hover:scale-110
+          transition
+          transform
+          duration-700
+          ease-in-out
+          cursor-pointer
+        ">
+        <img 
+        src="/logo.png" 
+        className="
+        App-logo
+        " 
+        alt="logo" 
+        />
+        </div>
+        
         <h2 className="header-text font-bold text-3xl text-center text-white">
           Imagify
         </h2>

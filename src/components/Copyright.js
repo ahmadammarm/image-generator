@@ -12,7 +12,7 @@ const Copyright = () => {
         font-semibold
         tracking-widest
     '
-    >Contributing in <a href='https://github.com/ahmadammarm/image-generator' target='blank'
+    >Created by <a href='https://porto-ammar.vercel.app' target='blank'
       className='
         hover:text-blue-700
         transition
@@ -20,7 +20,7 @@ const Copyright = () => {
         ease-in-out
         text-blue-500
       '
-      >My Github</a>
+      >Ammar</a>
     </div>
   )
 }

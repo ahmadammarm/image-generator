@@ -1,6 +1,6 @@
-# React Image Generator
+# Imagify Image Generator
 <p>Hi everyone ! <br>
-This is my repository about React Image Generator<br>
+This is my repository about Imagify Image Generator<br>
 Hope u happy to used it</p>
 
 <h3>About</h3>
