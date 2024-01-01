@@ -12,7 +12,7 @@ const Copyright = () => {
         font-semibold
         tracking-widest
     '
-    >Created by <a href='https://porto-ammar.vercel.app' target='blank'
+    >Created by <a href='https://ahmadammar.vercel.app' target='blank'
       className='
         hover:text-blue-700
         transition
