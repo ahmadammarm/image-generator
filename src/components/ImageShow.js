@@ -2,7 +2,7 @@ import React from "react";
 
 const ImageShow = ({ image, onImageClick }) => {
   const handleImageClick = () => {
-    if(onImageClick) {
+    if (onImageClick) {
       onImageClick(image);
     }
   };
@@ -16,8 +16,9 @@ const ImageShow = ({ image, onImageClick }) => {
         border-2
         border-gray-300
         rounded-lg
-        p-5
-    "
+        p-3
+        mb-5
+      "
     >
       <img
         src={image.urls.small}
