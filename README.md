@@ -27,48 +27,40 @@ This project is a simple website that allows users to generate images based on t
 We welcome contributions from the community. If you would like to contribute to this project, please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch for the feature or fix you want to contribute:
+2. Open your Git Bash
+3. Clone your forked repository
+   ```bash
+   git clone "Your forked repository URL".git
+   ```
+4. Change the directory in to your forked repository
+   ```bash
+   cd "Your forked repository name"
+   ```
+5. Create a new branch for the feature or fix you want to contribute in your forked repository:
 
    ```bash
-   git checkout -b new-feature
+   git checkout -b "Your branch name"
    ```
 
-3. Before that u must go to in this link [Getting Unsplash API Key](https://unsplash.com/developers). After u get the API Key u can fork this repository and put down ur API Key in ur .env file like this format
+6. Before that u must go to in this link [Getting Unsplash API Key](https://unsplash.com/developers). After u get the API Key u can fork this repository and put down ur API Key in ur .env file like this format
    ```
    REACT_APP_UNSPLASH_CLIENT_ID=YOUR API KEY
    ```
-4. Make the necessary changes.
-5. Commit your changes:
+7. Make the necessary changes.
+8. Commit your changes:
 
    ```bash
    git commit -m "Add new feature"
    ```
 
-6. Push to your branch:
+9. Push to your branch:
 
    ```bash
-   git push origin new-feature
+   git push origin "Your branch name"
    ```
 
-7. Create a Pull Request to the original repository.
+10. Open your forked repository in the Github to make a pull request by click the "Compare & Pull Request" button.
 
-## Contributors
-
-<table>
-  <tbody>
-    <tr>
-         <td align="center"><a href="https://github.com/ahmadammarm"><img src="https://avatars.githubusercontent.com/u/113039347?v=4?s=100" width="100px;" alt="Ahmad Ammar Musyaffa
-"/><br /><sub><b>Ahmad Ammar Musyaffa
-</b></sub></a><br /></td>
-         <td align="center"><a href="https://github.com/javidsumra"><img src="https://avatars.githubusercontent.com/u/112365664?v=4" width="100px;" alt="Ahmad Ammar Musyaffa
-"/><br /><sub><b>Javid Sumra
-</b></sub></a><br /></td>
-         <td align="center"><a href="https://github.com/nishaaannnt"><img src="https://avatars.githubusercontent.com/u/100792085?v=4" width="100px;" alt="Ahmad Ammar Musyaffa
-"/><br /><sub><b>Nishant Dixit
-</b></sub></a><br /></td>
-    </tr>
-  </tbody>
-</table>
 
 Please feel free to reach out if you have any questions or issues related to this project. Thank you for contributing!
 
